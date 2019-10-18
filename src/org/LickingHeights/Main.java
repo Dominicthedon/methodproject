@@ -7,7 +7,11 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
   printGreetings();
-
+int a,b;
+a=15;
+b=10;
+int answer= multiplication(a,b);
+System.out.print(answer);
     }
     public static void printGreetings (){
     System.out.println("Hello World");
@@ -22,4 +26,8 @@ public class Main {
         userName = keyboard.nextLine();
         System.out.println("Hello"+ " " + userName );
     }
+    public static int multiplication(int a, int b){
+        return a*b ;
+    }
+
 }
